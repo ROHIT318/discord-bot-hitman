@@ -109,4 +109,4 @@ async def covid(ctx, state: str, city: str):
     embed.add_field(name="Total Deaths", value=totalDeceased, inline=False)
     await ctx.send(embed=embed)
 
-bot.run('NjEyNjYxMTkwODc4ODIyNDAy.XVlnMg.P_cnUKbGkZo96qCG7dTvTua18n0')
+bot.run(os.getenv('BOT_TOKEN'))
